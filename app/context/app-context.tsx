@@ -43,6 +43,7 @@ export function ContextProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     async function fetchAndUpdateContext() {
+      console.log('image updated')
       try {
         // 0. Check if required environment variables are available
         if (
