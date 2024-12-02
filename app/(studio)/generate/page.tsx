@@ -42,7 +42,7 @@ export default function Page() {
         >
           {error === null
             ? 'Loading your profile content...'
-            : 'Error while loading your profile content! Retry or contact you IT admin.'}
+            : 'Error while loading your profile content! Retry or contact hamza.'}
         </Typography>
       </Box>
     )
